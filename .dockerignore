@@ -1,0 +1,55 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Binaries
+bin/
+go-test-bot
+go-test-bot.exe
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Documentation
+README.md
+*.md
+LICENSE
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Test files
+*_test.go
+test/
+tests/
+
+# Build artifacts
+*.o
+*.a
+*.test
+
+# Coverage
+coverage.out
+coverage.html
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.log
+

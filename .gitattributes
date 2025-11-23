@@ -1,0 +1,35 @@
+# Безпека: запобігає виконанню скриптів
+*.bat text eol=crlf
+*.sh text eol=lf
+*.ps1 text eol=crlf
+
+# Запобігає автоматичному виконанню
+*.bat -executable
+*.sh -executable
+*.ps1 -executable
+
+# Go файли
+*.go text eol=lf
+go.mod text eol=lf
+go.sum text eol=lf
+
+# Docker файли
+Dockerfile text eol=lf
+*.dockerfile text eol=lf
+
+# Конфігураційні файли
+Makefile text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+
+# Документація
+*.md text eol=lf
+*.txt text eol=lf
+
+# Бінарні файли (не дозволяє Git інтерпретувати як текст)
+*.exe binary
+*.dll binary
+*.so binary
+*.dylib binary
+
